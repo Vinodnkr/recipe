@@ -22,7 +22,7 @@ class CookingClubApp extends StatelessWidget {
       routes: {
         '/': (context) => SignInPage(),
         '/recipeList': (context) => RecipeListPage(),
-        '/recipeDetail': (context) => RecipeDetailPage(),
+        '/myFavorites': (context) => RecipeDetailPage(),
         '/myFavorites': (context) => MyFavoritesPage(),
       },
     );
